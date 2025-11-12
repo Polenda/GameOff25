@@ -2,15 +2,8 @@ using UnityEngine;
 
 public class playerPowerups : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void powerupTemp() 
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("Powerup activated!");
     }
 }

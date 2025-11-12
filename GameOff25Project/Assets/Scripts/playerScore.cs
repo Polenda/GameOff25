@@ -11,6 +11,15 @@ public class playerScore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void addScore()
+    {
+        Debug.Log("Score Added");
+    }
+    public void removeScore()
+    {
+        Debug.Log("Score Removed");
     }
 }

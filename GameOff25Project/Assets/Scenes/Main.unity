@@ -222,6 +222,8 @@ GameObject:
   - component: {fileID: 1934056481}
   - component: {fileID: 1934056482}
   - component: {fileID: 1934056483}
+  - component: {fileID: 1934056485}
+  - component: {fileID: 1934056484}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -266,6 +268,32 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 526d41d5bc069ce4ea9377ea3ad31912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilities: {fileID: 1934056485}
+  powerups: {fileID: 1934056484}
+--- !u!114 &1934056484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934056480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f738c2a7c1afd45847e61692880255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1934056485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934056480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5cbeb239423004e8471f80a79aa26b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
